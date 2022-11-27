@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!-- 开启注解的支持 -->
+    <context:annotation-config/>
+
+    <bean id="catt" class="spring.bean.autowired.Cat"/>
+    <bean id="cattt" class="spring.bean.autowired.Cat"/>
+    <bean id="dog" class="spring.bean.autowired.Dog"/>
+    <bean id="dogg" class="spring.bean.autowired.Dog"/>
+    <bean id="person" class="spring.bean.autowired.Person"/>
+
+<!--    <bean id="cat" class="spring.bean.autowired.Cat"/>-->
+<!--    <bean id="dog" class="spring.bean.autowired.Dog"/>-->
+
+<!--    &lt;!&ndash;-->
+<!--    byName：会自动在容器上下文查找，和自己对象set方法后面的值对应的 beanid-->
+<!--    &ndash;&gt;-->
+<!--    <bean id="person" class="spring.bean.autowired.Person" autowire="byType">-->
+<!--        <property name="name" value="MasaKa"></property>-->
+<!--    </bean>-->
+</beans>

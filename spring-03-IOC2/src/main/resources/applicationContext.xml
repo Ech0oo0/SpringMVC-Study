@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="beans1.xml"/>
+    <import resource="beans2.xml"/>
+<!--    &lt;!&ndash; 默认无参构造的注入方式 &ndash;&gt;-->
+<!--    <bean id="user" class="spring.create.learn.User">-->
+<!--        <property name="name" value="天朝"></property>-->
+<!--    </bean>-->
+
+<!--    &lt;!&ndash; 有参构造，通过下标赋值 &ndash;&gt;-->
+<!--    <bean id="user" class="spring.create.learn.User">-->
+<!--        <constructor-arg index="0" value="天朝"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="user" class="spring.create.learn.User">-->
+<!--        <constructor-arg type="java.lang.String" value="天朝"/>-->
+<!--    </bean>-->
+
+    <bean id="user" class="spring.create.learn.User">
+        <constructor-arg name="name" value="天朝"/>
+    </bean>
+
+    <!-- 在注册Bean的时候，Spring就已经为我们实例化了对象 -->
+<!--    <bean id="userT" class="spring.create.learn.UserT">-->
+<!--    </bean>-->
+
+    <!-- 别名-->
+    <alias name="user" alias="userAlias"></alias>
+
+    <!--
+    id：bean 的唯一标识符，相当于对象名
+    class：bean 对象所对应的全限定名：包名 + 类型
+    name：也是别名，而且 name 可以同时取多个别名（逗号 分号 空格都可以分割）
+    -->
+    <bean id="userT" class="spring.create.learn.UserT" name="userTAlias,userTAlias2;userTAlias3 userTAlias4">
+        <property name="name" value="西部开源"/>
+    </bean>
+
+</beans>
