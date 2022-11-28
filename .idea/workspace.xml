@@ -16,7 +16,14 @@
         <item name="GROUP_NODE:SpringMVC" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:SpringMVC" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:SpringMVC/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aeb7a163-1ace-4484-a58e-15661e5ee5a2" name="Default Changelist" comment="Mybatis" />
@@ -66,7 +73,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-08-proxy/src/main/java/spring/proxy/learn03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -255,6 +262,7 @@
       <workItem from="1669604819779" duration="1231000" />
       <workItem from="1669606082676" duration="733000" />
       <workItem from="1669607143439" duration="1865000" />
+      <workItem from="1669610933096" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="Mybatis">
       <created>1669562913013</created>
@@ -312,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669608371937</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Mybatis">
+      <created>1669611115186</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669611115186</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,6 +353,17 @@
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
                   <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="SpringMVC/main" />
+                      </list>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </State>
@@ -373,11 +399,11 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="842" y="378" key="#Notifications/0.0.1920.1032/-1280.58.1280.976@0.0.1920.1032" timestamp="1669169987160" />
-    <state x="440" y="90" key="#Project_Structure" timestamp="1669556536287">
+    <state x="440" y="90" key="#Project_Structure" timestamp="1669610949189">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="440" y="90" key="#Project_Structure/0.0.1920.1032/-1280.58.1280.976@0.0.1920.1032" timestamp="1669346602587" />
-    <state x="440" y="90" key="#Project_Structure/0.0.1920.1032@0.0.1920.1032" timestamp="1669556536287" />
+    <state x="440" y="90" key="#Project_Structure/0.0.1920.1032@0.0.1920.1032" timestamp="1669610949189" />
     <state x="552" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1669557434430">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -475,11 +501,11 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="595" y="276" key="MultipleFileMergeDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1669603447727" />
-    <state x="461" y="160" key="SettingsEditor" timestamp="1669607518027">
+    <state x="461" y="160" key="SettingsEditor" timestamp="1669611097703">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="461" y="160" key="SettingsEditor/0.0.1920.1032/-1280.58.1280.976@0.0.1920.1032" timestamp="1669340493844" />
-    <state x="461" y="160" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1669607518027" />
+    <state x="461" y="160" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1669611097703" />
     <state x="653" y="212" key="VCS.ChangeListViewerDialog" timestamp="1669604713602">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
