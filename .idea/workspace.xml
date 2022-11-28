@@ -16,10 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aeb7a163-1ace-4484-a58e-15661e5ee5a2" name="Default Changelist" comment="Mybatis">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-    </list>
+    <list default="true" id="aeb7a163-1ace-4484-a58e-15661e5ee5a2" name="Default Changelist" comment="Mybatis" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,7 +191,7 @@
       <workItem from="1669551461055" duration="5210000" />
       <workItem from="1669602007582" duration="1775000" />
       <workItem from="1669603812549" duration="983000" />
-      <workItem from="1669604819779" duration="332000" />
+      <workItem from="1669604819779" duration="800000" />
     </task>
     <task id="LOCAL-00001" summary="Mybatis">
       <created>1669562913013</created>
@@ -217,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669602699291</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Mybatis">
+      <created>1669605346374</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669605346374</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
