@@ -8,7 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-03-IOC2" />
         <module name="spring-01-IOC" />
-        <module name="spring-07-appConfig" />
+        <module name="spring-07-JavaConfig" />
         <module name="spring-02-HelloSpring" />
         <module name="spring-09-AOP" />
         <module name="spring-08-proxy" />
@@ -18,5 +18,18 @@
         <module name="spring-10-Mybatis" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-01-IOC" target="1.5" />
+      <module name="spring-02-HelloSpring" target="1.5" />
+      <module name="spring-03-IOC2" target="1.5" />
+      <module name="spring-04-DI" target="1.5" />
+      <module name="spring-05-autowired" target="1.5" />
+      <module name="spring-06-annotation" target="1.5" />
+      <module name="spring-07-JavaConfig" target="1.5" />
+      <module name="spring-08-proxy" target="1.5" />
+      <module name="spring-09-AOP" target="1.5" />
+      <module name="spring-10-Mybatis" target="1.5" />
+      <module name="SpringMVC-Study" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
