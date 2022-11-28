@@ -19,9 +19,7 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:SpringMVC" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:SpringMVC/main" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -69,7 +67,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -205,6 +203,7 @@
       <workItem from="1669603812549" duration="983000" />
       <workItem from="1669604819779" duration="1231000" />
       <workItem from="1669606082676" duration="733000" />
+      <workItem from="1669607143439" duration="373000" />
     </task>
     <task id="LOCAL-00001" summary="Mybatis">
       <created>1669562913013</created>
@@ -265,17 +264,6 @@
                   <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="SpringMVC/main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
             </State>
           </value>
         </entry>
@@ -284,6 +272,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="reload" />
     <MESSAGE value="Mybatis" />
     <option name="LAST_COMMIT_MESSAGE" value="Mybatis" />
@@ -403,11 +394,11 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="595" y="276" key="MultipleFileMergeDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1669603447727" />
-    <state x="461" y="160" key="SettingsEditor" timestamp="1669555740684">
+    <state x="461" y="160" key="SettingsEditor" timestamp="1669607518027">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="461" y="160" key="SettingsEditor/0.0.1920.1032/-1280.58.1280.976@0.0.1920.1032" timestamp="1669340493844" />
-    <state x="461" y="160" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1669555740684" />
+    <state x="461" y="160" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1669607518027" />
     <state x="653" y="212" key="VCS.ChangeListViewerDialog" timestamp="1669604713602">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
