@@ -26,7 +26,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aeb7a163-1ace-4484-a58e-15661e5ee5a2" name="Default Changelist" comment="Mybatis" />
+    <list default="true" id="aeb7a163-1ace-4484-a58e-15661e5ee5a2" name="Default Changelist" comment="Mybatis">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Mybatis/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -262,7 +266,7 @@
       <workItem from="1669604819779" duration="1231000" />
       <workItem from="1669606082676" duration="733000" />
       <workItem from="1669607143439" duration="1865000" />
-      <workItem from="1669610933096" duration="305000" />
+      <workItem from="1669610933096" duration="4706000" />
     </task>
     <task id="LOCAL-00001" summary="Mybatis">
       <created>1669562913013</created>
@@ -327,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669611115186</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Mybatis">
+      <created>1669611401268</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669611401268</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,11 +410,11 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="842" y="378" key="#Notifications/0.0.1920.1032/-1280.58.1280.976@0.0.1920.1032" timestamp="1669169987160" />
-    <state x="440" y="90" key="#Project_Structure" timestamp="1669610949189">
+    <state x="440" y="90" key="#Project_Structure" timestamp="1669615632983">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="440" y="90" key="#Project_Structure/0.0.1920.1032/-1280.58.1280.976@0.0.1920.1032" timestamp="1669346602587" />
-    <state x="440" y="90" key="#Project_Structure/0.0.1920.1032@0.0.1920.1032" timestamp="1669610949189" />
+    <state x="440" y="90" key="#Project_Structure/0.0.1920.1032@0.0.1920.1032" timestamp="1669615632983" />
     <state x="552" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1669557434430">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -518,10 +529,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="652" y="274" key="Vcs.Multiple.Commit.Info.Dialog.Key/0.0.1920.1032@0.0.1920.1032" timestamp="1669603301318" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1669608204106">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1669615591970">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1669608204106" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1669615591970" />
     <state x="753" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1669545348728">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
