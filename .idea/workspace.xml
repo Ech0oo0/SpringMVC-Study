@@ -19,14 +19,14 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:SpringMVC" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:SpringMVC/main" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aeb7a163-1ace-4484-a58e-15661e5ee5a2" name="Default Changelist" comment="Mybatis">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="aeb7a163-1ace-4484-a58e-15661e5ee5a2" name="Default Changelist" comment="Mybatis" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,7 +203,7 @@
       <workItem from="1669603812549" duration="983000" />
       <workItem from="1669604819779" duration="1231000" />
       <workItem from="1669606082676" duration="733000" />
-      <workItem from="1669607143439" duration="373000" />
+      <workItem from="1669607143439" duration="735000" />
     </task>
     <task id="LOCAL-00001" summary="Mybatis">
       <created>1669562913013</created>
@@ -247,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669606146494</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Mybatis">
+      <created>1669607747356</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669607747356</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +269,17 @@
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
                   <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="SpringMVC/main" />
+                      </list>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </State>
@@ -318,10 +336,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="690" y="262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1032/-1280.58.1280.976@0.0.1920.1032" timestamp="1669264714230" />
-    <state x="92" y="92" width="1736" height="848" key="DiffContextDialog" timestamp="1669604439337">
+    <state x="92" y="92" width="1736" height="848" key="DiffContextDialog" timestamp="1669607883698">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="92" y="92" width="1736" height="848" key="DiffContextDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1669604439337" />
+    <state x="92" y="92" width="1736" height="848" key="DiffContextDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1669607883698" />
     <state x="740" y="271" key="FileChooserDialogImpl" timestamp="1669166606540">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -330,10 +348,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="771" y="435" key="Github.CreateGistDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1669605194100" />
-    <state x="807" y="413" key="Github.ShareDialog" timestamp="1669532581171">
+    <state x="807" y="413" key="Github.ShareDialog" timestamp="1669607636097">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="807" y="413" key="Github.ShareDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1669532581171" />
+    <state x="807" y="413" key="Github.ShareDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1669607636097" />
     <state x="644" y="213" key="Github.UntrackedFilesDialog" timestamp="1669527240354">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
